@@ -1,0 +1,294 @@
+/*Wash U Upper Banner*/
+html{
+    background-color: gray;
+}
+.school-name{
+    color: white;
+    background-color: maroon;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1.5rem;
+    height: 50px
+}
+.school-name div{
+    margin-left: 5%;
+}
+
+/*Out Reach Logo*/
+.logo{
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 0px;
+}
+.logo-items{
+    margin-left: 5%;
+}
+.logo img{
+    max-height: 200px;
+}
+.logo h1{
+    font-size: 4rem;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+}
+.logo h3{
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    flex: 1 1 auto;
+    text-align: center;
+    color: rgb(94, 90, 90);  
+}
+
+
+/*Nav Bar*/
+nav{
+    margin-top: 0px;
+    margin-bottom: 25px;
+    width: 100%;
+    height: 75px;
+    background-color: maroon;
+    color: white;
+    text-decoration: underline;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-bar span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.25rem;
+    height: 100%;
+    width: 15%;
+}
+.nav-bar span a:link{
+    color: white;
+    text-decoration: none;
+}
+.nav-bar span a:visited{
+    color: white;
+}
+.nav-bar span a:hover{
+    color: yellow;
+    font-size: 1.5rem;
+}
+.nav-bar span a:active{
+    font-size: 1.25rem;
+    color: white;
+}
+
+
+
+
+/*mission statement*/
+
+.mission{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', serif;
+}
+.our{
+    font-size: 3rem;
+    text-decoration: underline;
+    margin-top: 3%;
+    margin-bottom: 1%;
+}
+.statement-box{
+    height: 250px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(209, 204, 204);
+}
+.statement{
+    font-size: 2rem;
+    width: 80%;
+    font-style: italic;
+    margin-bottom: 1%;
+}
+.learn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15%;
+    width: 20%;
+}
+/*Mission Statement button*/
+
+.learn a{
+    transition-duration: .20s;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.learn a:link{
+    text-decoration: none;
+    color: white;
+    background-color: maroon;
+    border-radius: 5px;
+    height: 70%;
+    width: 50%;
+}
+.learn a:visited{
+    text-decoration: none;
+    color: white;
+}
+.learn a:hover{
+    font-size: 1.25rem;
+    padding: 3% 3%;
+}
+.learn a:active{
+    padding: 1% 1%;
+    font-size: 1.15rem;
+}
+
+
+/*Kids and blurb*/
+.who{
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 1%;
+    font-size: 3rem;
+    text-decoration: underline;
+    
+}
+
+.kids-blurb{
+    background-color: rgb(209, 204, 204);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.images{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.kids{
+    height: 400px;
+    width: 400px;
+}
+.blurb{
+    margin: .5% 2% 1.5% 2%;
+    text-align: center;
+    font-size: 1.5rem;
+
+}
+
+
+/*Offerings*/
+.check{
+    margin-top: 5%;
+    margin-bottom: 2%;
+    font-size: 3rem;
+    text-decoration: underline;
+    text-align: center;
+}
+.curriculum{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+}
+.week{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.week ul{
+    margin-right: 3%;
+    font-size: 1rem;
+}
+.week-header{
+    font-size: 1.5rem;
+    text-decoration: underline;
+    font-weight: bolder;
+    margin-bottom: 2%;
+}
+.question{
+    font-size: 1.10rem;
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+/*Curriculum Buttons*/
+.curriculum a:link{
+    text-decoration: none;
+    color: black;
+    background-color: teal;
+    margin: 2%;
+    width: 450px;
+    height: 300px;
+    border: 5px solid black;
+    border-radius: 200px;
+    transition: .5s;
+}
+.curriculum a:visited{
+    color: black;
+}
+.curriculum a:hover{
+    background-color: yellowgreen;
+    border-radius: 100px;
+    
+}
+
+
+/*Team Members*/
+.team-section{
+    height: 100%;
+    background-color: rgb(209, 204, 204);
+    padding-top: 5%;
+}
+.our-team{
+    text-align: center;
+    margin-bottom: 5%;
+    font-size: 3rem;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.team{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.team-member{
+    height: 400px;
+    width: 400px;
+    margin-bottom: 100px;
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.team-member img{
+    height: 400px;
+    width: 450px;
+    border-radius: 100px;
+}
+.team-role{
+    font-size: 1.5rem;
+    margin-top: 2%;
+    font-weight: bold;
+    text-decoration: underline;
+}
